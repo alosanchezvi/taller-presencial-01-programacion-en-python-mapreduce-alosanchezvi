@@ -93,6 +93,7 @@ def reducer(sequence):
     for key, value in diccionario.items():
         tupla = (key, sum(value))
         new_sequence.append(tupla)
+        
     return new_sequence
 
         
